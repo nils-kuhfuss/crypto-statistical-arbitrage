@@ -16,15 +16,16 @@ Can cointegration-based pairs trading remain effective when pairs and parameters
 
 The research compares a static baseline with changes to holding periods, pair re-selection and hedge sizing. The aim is to understand whether each modification improves the evidence for a trading edge.
 
-Price source:	Binance spot reference prices
-Frequency:	Four-hour bars
-Initial formation period:	1 January 2020 – 31 December 2022
-Validation period:	1 January 2023 – 31 December 2023
-Final evaluation period:	1 January 2024 – 30 June 2026, labelled final out-of-sample in the project configuration
-Static universe:	28 coins for S0 and S1, Walk-forward universe	45 coins, rebuilt separately from the static universe
+- Price source:	Binance spot reference prices
+- Frequency:	Four-hour bars
+- Initial formation period:	1 January 2020 – 31 December 2022
+- Validation period:	1 January 2023 – 31 December 2023
+- Final evaluation period:	1 January 2024 – 30 June 2026, labelled final out-of-sample in the project configuration
+- Static universe:	28 coins for S0 and S1, Walk-forward universe	45 coins, rebuilt separately from the static universe
 
+Dates and parameters are defined in config/research_config.py. 
 
-Dates and parameters are defined in config/research_config.py. The walk-forward models use their own rolling formation and rebalancing schedule within the evaluation workflow.
+The walk-forward models use their own rolling formation and rebalancing schedule within the evaluation workflow.
 The two universes differ. Changes in performance between static and walk-forward models cannot automatically be attributed only to the strategy modification.
 Strategy variants
 
@@ -80,13 +81,12 @@ CLAUDE.md contains additional project conventions and research principles. The o
 Setup
 
 Run the following from the project root in the intended Python environment:
-pip install -e ".[dev]"
-python -m ipykernel install --user --name python3
-The documented development dependencies include pytest, nbformat, nbclient and ipykernel. The python3 kernel is required for headless notebook execution.
-The workflow expects data/raw/px.pkl and data/raw/ret.pkl. Ensure those inputs are available before running the analysis; the commands above are environment-setup instructions, not a data-download workflow.
-Notebook order
-Run each notebook from a clean kernel using Restart & Run All.
-Order	Notebook	Purpose
+- pip install -e ".[dev]"
+- python -m ipykernel install --user --name python3
+- The documented development dependencies include pytest, nbformat, nbclient and ipykernel. The python3 kernel is required for headless notebook execution.
+- The workflow expects data/raw/px.pkl and data/raw/ret.pkl. Ensure those inputs are available before running the analysis; the commands above are environment-setup instructions, not a data-download workflow.
+- Notebook order
+- Run each notebook from a clean kernel using Restart & Run All.
 
 1.	01_data_and_static_baseline.ipynb	Load data, construct the static universe, screen pairs, and evaluate S0, S1 and time-stop sensitivity.
 2.	02_relationship_stability.ipynb	Examine the walk-forward universe and point-in-time relationship stability.
