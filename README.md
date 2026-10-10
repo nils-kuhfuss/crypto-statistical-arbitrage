@@ -62,18 +62,18 @@ Repository structure
 
 Location	Purpose
 
-config/	Central research parameters and data/cache paths, defined from a single project root.
-src/stat_arb/	Research engine: data handling, statistics, signals, execution, portfolio construction, metrics, selection, walk-forward orchestration, caching and reporting.
-notebooks/	Four ordered research narratives that call the shared implementation.
-tests/	Tests for eligibility, execution, statistics, return reconciliation and cache behaviour.
-scripts/	Standalone stability precompute and supporting reference-output/notebook tools.
-data/raw/	Required input files: px.pkl and ret.pkl.
-data/cache/	Regeneratable intermediate outputs, keyed by methodology fingerprints and excluded from version control.
-data/processed/	Reserved for future derived datasets; currently unused.
-results/	Comparison tables, headline results, reference outputs and validation reports.
-legacy/	Original notebook, Stat_Arb_cont_res_1.ipynb, retained as the pre-refactor reference.
-docs/	Methodology, project-management and archived documentation.
-backups/	Local safety snapshots, excluded from version control.
+- config/	Central research parameters and data/cache paths, defined from a single project root.
+- src/stat_arb/	Research engine: data handling, statistics, signals, execution, portfolio construction, metrics, selection, walk-forward orchestration, caching and reporting.
+- notebooks/	Four ordered research narratives that call the shared implementation.
+- tests/	Tests for eligibility, execution, statistics, return reconciliation and cache behaviour.
+- scripts/	Standalone stability precompute and supporting reference-output/notebook tools.
+- data/raw/	Required input files: px.pkl and ret.pkl.
+- data/cache/	Regeneratable intermediate outputs, keyed by methodology fingerprints and excluded from version control.
+- data/processed/	Reserved for future derived datasets; currently unused.
+- results/	Comparison tables, headline results, reference outputs and validation reports.
+- legacy/	Original notebook, Stat_Arb_cont_res_1.ipynb, retained as the pre-refactor reference.
+- docs/	Methodology, project-management and archived documentation.
+- backups/	Local safety snapshots, excluded from version control.
 
 
 CLAUDE.md contains additional project conventions and research principles. The original notebook remains the reference for the refactored implementation.
@@ -88,10 +88,10 @@ Notebook order
 Run each notebook from a clean kernel using Restart & Run All.
 Order	Notebook	Purpose
 
-1	01_data_and_static_baseline.ipynb	Load data, construct the static universe, screen pairs, and evaluate S0, S1 and time-stop sensitivity.
-2	02_relationship_stability.ipynb	Examine the walk-forward universe and point-in-time relationship stability.
-3	03_walkforward_strategy.ipynb	Evaluate WF1, its sensitivity checks and WF2.
-4	04_results_and_model_comparison.ipynb	Assemble the standardized comparison, limitations and research conclusion.
+1.	01_data_and_static_baseline.ipynb	Load data, construct the static universe, screen pairs, and evaluate S0, S1 and time-stop sensitivity.
+2.	02_relationship_stability.ipynb	Examine the walk-forward universe and point-in-time relationship stability.
+3.	03_walkforward_strategy.ipynb	Evaluate WF1, its sensitivity checks and WF2.
+4.	04_results_and_model_comparison.ipynb	Assemble the standardized comparison, limitations and research conclusion.
 
 
 Notebook 01 writes results/tables/s0_s1_rows.json; notebook 03 writes results/tables/wf1_wf2_rows.json. Notebook 04 reads both outputs.
