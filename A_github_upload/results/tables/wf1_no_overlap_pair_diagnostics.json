@@ -1,0 +1,498 @@
+{
+  "cluster_coin": "LDOUSDT",
+  "richest_block": "2024-01-01",
+  "cluster_pair_table": [
+    {
+      "pair": "LDOUSDT/OMUSDT",
+      "pvalue_adj": 0.0003584461752181333,
+      "fully_qualifying": true,
+      "selected": true,
+      "elimination_stage": null,
+      "generated_entry_signal": true,
+      "n_executed_trades": 2
+    },
+    {
+      "pair": "DOTUSDT/LDOUSDT",
+      "pvalue_adj": 0.0008851170134969214,
+      "fully_qualifying": true,
+      "selected": true,
+      "elimination_stage": null,
+      "generated_entry_signal": true,
+      "n_executed_trades": 5
+    },
+    {
+      "pair": "LDOUSDT/UNIUSDT",
+      "pvalue_adj": 0.0008851170134969214,
+      "fully_qualifying": true,
+      "selected": true,
+      "elimination_stage": null,
+      "generated_entry_signal": true,
+      "n_executed_trades": 2
+    },
+    {
+      "pair": "LDOUSDT/NEARUSDT",
+      "pvalue_adj": 0.0008851170134969214,
+      "fully_qualifying": true,
+      "selected": true,
+      "elimination_stage": null,
+      "generated_entry_signal": true,
+      "n_executed_trades": 3
+    },
+    {
+      "pair": "ATOMUSDT/LDOUSDT",
+      "pvalue_adj": 0.0008851170134969214,
+      "fully_qualifying": true,
+      "selected": true,
+      "elimination_stage": null,
+      "generated_entry_signal": true,
+      "n_executed_trades": 4
+    },
+    {
+      "pair": "FTMUSDT/LDOUSDT",
+      "pvalue_adj": 0.0008851170134969214,
+      "fully_qualifying": true,
+      "selected": true,
+      "elimination_stage": null,
+      "generated_entry_signal": true,
+      "n_executed_trades": 2
+    },
+    {
+      "pair": "DOGEUSDT/LDOUSDT",
+      "pvalue_adj": 0.0026476662908063347,
+      "fully_qualifying": true,
+      "selected": true,
+      "elimination_stage": null,
+      "generated_entry_signal": true,
+      "n_executed_trades": 2
+    },
+    {
+      "pair": "LDOUSDT/VETUSDT",
+      "pvalue_adj": 0.0026476662908063347,
+      "fully_qualifying": true,
+      "selected": true,
+      "elimination_stage": null,
+      "generated_entry_signal": true,
+      "n_executed_trades": 4
+    },
+    {
+      "pair": "FILUSDT/LDOUSDT",
+      "pvalue_adj": 0.00461011668945093,
+      "fully_qualifying": true,
+      "selected": true,
+      "elimination_stage": null,
+      "generated_entry_signal": true,
+      "n_executed_trades": 5
+    },
+    {
+      "pair": "LDOUSDT/SHIBUSDT",
+      "pvalue_adj": 0.006082977852131707,
+      "fully_qualifying": true,
+      "selected": true,
+      "elimination_stage": null,
+      "generated_entry_signal": true,
+      "n_executed_trades": 2
+    },
+    {
+      "pair": "ICPUSDT/LDOUSDT",
+      "pvalue_adj": 0.006242493838582011,
+      "fully_qualifying": true,
+      "selected": false,
+      "elimination_stage": "max_pairs_cap",
+      "generated_entry_signal": null,
+      "n_executed_trades": 0
+    },
+    {
+      "pair": "AVAXUSDT/LDOUSDT",
+      "pvalue_adj": 0.008740319529457561,
+      "fully_qualifying": true,
+      "selected": false,
+      "elimination_stage": "max_pairs_cap",
+      "generated_entry_signal": null,
+      "n_executed_trades": 0
+    },
+    {
+      "pair": "BNBUSDT/LDOUSDT",
+      "pvalue_adj": 0.014142413948245051,
+      "fully_qualifying": true,
+      "selected": false,
+      "elimination_stage": "max_pairs_cap",
+      "generated_entry_signal": null,
+      "n_executed_trades": 0
+    },
+    {
+      "pair": "ADAUSDT/LDOUSDT",
+      "pvalue_adj": 0.03808537727664284,
+      "fully_qualifying": true,
+      "selected": false,
+      "elimination_stage": "max_pairs_cap",
+      "generated_entry_signal": null,
+      "n_executed_trades": 0
+    },
+    {
+      "pair": "APTUSDT/LDOUSDT",
+      "pvalue_adj": 0.03808537727664284,
+      "fully_qualifying": true,
+      "selected": false,
+      "elimination_stage": "max_pairs_cap",
+      "generated_entry_signal": null,
+      "n_executed_trades": 0
+    },
+    {
+      "pair": "IMXUSDT/LDOUSDT",
+      "pvalue_adj": 0.06640513198266496,
+      "fully_qualifying": false,
+      "selected": false,
+      "elimination_stage": "fdr",
+      "generated_entry_signal": null,
+      "n_executed_trades": 0
+    },
+    {
+      "pair": "HBARUSDT/LDOUSDT",
+      "pvalue_adj": 0.10391382305259524,
+      "fully_qualifying": false,
+      "selected": false,
+      "elimination_stage": "fdr",
+      "generated_entry_signal": null,
+      "n_executed_trades": 0
+    },
+    {
+      "pair": "LDOUSDT/MKRUSDT",
+      "pvalue_adj": 0.10729897241086792,
+      "fully_qualifying": false,
+      "selected": false,
+      "elimination_stage": "fdr",
+      "generated_entry_signal": null,
+      "n_executed_trades": 0
+    },
+    {
+      "pair": "LDOUSDT/XLMUSDT",
+      "pvalue_adj": 0.11160086772857118,
+      "fully_qualifying": false,
+      "selected": false,
+      "elimination_stage": "fdr",
+      "generated_entry_signal": null,
+      "n_executed_trades": 0
+    },
+    {
+      "pair": "LDOUSDT/RUNEUSDT",
+      "pvalue_adj": 0.1581163464399452,
+      "fully_qualifying": false,
+      "selected": false,
+      "elimination_stage": "fdr",
+      "generated_entry_signal": null,
+      "n_executed_trades": 0
+    },
+    {
+      "pair": "LDOUSDT/XRPUSDT",
+      "pvalue_adj": 0.15991360599638027,
+      "fully_qualifying": false,
+      "selected": false,
+      "elimination_stage": "fdr",
+      "generated_entry_signal": null,
+      "n_executed_trades": 0
+    },
+    {
+      "pair": "LDOUSDT/XMRUSDT",
+      "pvalue_adj": 0.15991360599638027,
+      "fully_qualifying": false,
+      "selected": false,
+      "elimination_stage": "fdr",
+      "generated_entry_signal": null,
+      "n_executed_trades": 0
+    },
+    {
+      "pair": "LDOUSDT/TRXUSDT",
+      "pvalue_adj": 0.1870307121902304,
+      "fully_qualifying": false,
+      "selected": false,
+      "elimination_stage": "fdr",
+      "generated_entry_signal": null,
+      "n_executed_trades": 0
+    },
+    {
+      "pair": "LDOUSDT/LTCUSDT",
+      "pvalue_adj": 0.1870307121902304,
+      "fully_qualifying": false,
+      "selected": false,
+      "elimination_stage": "fdr",
+      "generated_entry_signal": null,
+      "n_executed_trades": 0
+    },
+    {
+      "pair": "LDOUSDT/LINKUSDT",
+      "pvalue_adj": 0.1870307121902304,
+      "fully_qualifying": false,
+      "selected": false,
+      "elimination_stage": "fdr",
+      "generated_entry_signal": null,
+      "n_executed_trades": 0
+    },
+    {
+      "pair": "INJUSDT/LDOUSDT",
+      "pvalue_adj": 0.21883871700484944,
+      "fully_qualifying": false,
+      "selected": false,
+      "elimination_stage": "fdr",
+      "generated_entry_signal": null,
+      "n_executed_trades": 0
+    },
+    {
+      "pair": "LDOUSDT/SOLUSDT",
+      "pvalue_adj": 0.2565135693086361,
+      "fully_qualifying": false,
+      "selected": false,
+      "elimination_stage": "fdr",
+      "generated_entry_signal": null,
+      "n_executed_trades": 0
+    },
+    {
+      "pair": "BTCUSDT/LDOUSDT",
+      "pvalue_adj": 0.3198824140013836,
+      "fully_qualifying": false,
+      "selected": false,
+      "elimination_stage": "fdr",
+      "generated_entry_signal": null,
+      "n_executed_trades": 0
+    },
+    {
+      "pair": "LDOUSDT/OPUSDT",
+      "pvalue_adj": 0.4010262206928518,
+      "fully_qualifying": false,
+      "selected": false,
+      "elimination_stage": "fdr",
+      "generated_entry_signal": null,
+      "n_executed_trades": 0
+    },
+    {
+      "pair": "ETHUSDT/LDOUSDT",
+      "pvalue_adj": 0.5430553254670333,
+      "fully_qualifying": false,
+      "selected": false,
+      "elimination_stage": "fdr",
+      "generated_entry_signal": null,
+      "n_executed_trades": 0
+    },
+    {
+      "pair": "AAVEUSDT/LDOUSDT",
+      "pvalue_adj": 0.6617527882365303,
+      "fully_qualifying": false,
+      "selected": false,
+      "elimination_stage": "fdr",
+      "generated_entry_signal": null,
+      "n_executed_trades": 0
+    },
+    {
+      "pair": "GRTUSDT/LDOUSDT",
+      "pvalue_adj": 0.7119833001729928,
+      "fully_qualifying": false,
+      "selected": false,
+      "elimination_stage": "fdr",
+      "generated_entry_signal": null,
+      "n_executed_trades": 0
+    }
+  ],
+  "cluster_return_correlation": {
+    "OMUSDT/LDOUSDT": {
+      "OMUSDT/LDOUSDT": 1.0,
+      "NEARUSDT/LDOUSDT": -7.455890682988623e-05,
+      "DOTUSDT/LDOUSDT": -0.05809260619717381,
+      "UNIUSDT/LDOUSDT": -0.08934604548950086,
+      "FTMUSDT/LDOUSDT": -0.0001756090811033757,
+      "ATOMUSDT/LDOUSDT": 5.515333313892259e-05,
+      "VETUSDT/LDOUSDT": -0.026022718592006215,
+      "DOGEUSDT/LDOUSDT": -0.06193534468285671,
+      "FILUSDT/LDOUSDT": -0.07091235292558545,
+      "SHIBUSDT/LDOUSDT": -0.06975339920143417
+    },
+    "NEARUSDT/LDOUSDT": {
+      "OMUSDT/LDOUSDT": -7.455890682988623e-05,
+      "NEARUSDT/LDOUSDT": 1.0,
+      "DOTUSDT/LDOUSDT": 0.27875270355289755,
+      "UNIUSDT/LDOUSDT": 0.13450031649349448,
+      "FTMUSDT/LDOUSDT": 0.02616988835392806,
+      "ATOMUSDT/LDOUSDT": 0.0002922776702098172,
+      "VETUSDT/LDOUSDT": 0.2750232722903961,
+      "DOGEUSDT/LDOUSDT": 0.10751058096228279,
+      "FILUSDT/LDOUSDT": 0.047045388579000896,
+      "SHIBUSDT/LDOUSDT": 0.04809433436477957
+    },
+    "DOTUSDT/LDOUSDT": {
+      "OMUSDT/LDOUSDT": -0.05809260619717381,
+      "NEARUSDT/LDOUSDT": 0.27875270355289755,
+      "DOTUSDT/LDOUSDT": 1.0,
+      "UNIUSDT/LDOUSDT": 0.37012307292970176,
+      "FTMUSDT/LDOUSDT": 0.2597931789106658,
+      "ATOMUSDT/LDOUSDT": -0.16973519915324947,
+      "VETUSDT/LDOUSDT": 0.357460731394166,
+      "DOGEUSDT/LDOUSDT": 0.29992407302304297,
+      "FILUSDT/LDOUSDT": 0.34882304900420824,
+      "SHIBUSDT/LDOUSDT": 0.33389033778707583
+    },
+    "UNIUSDT/LDOUSDT": {
+      "OMUSDT/LDOUSDT": -0.08934604548950086,
+      "NEARUSDT/LDOUSDT": 0.13450031649349448,
+      "DOTUSDT/LDOUSDT": 0.37012307292970176,
+      "UNIUSDT/LDOUSDT": 1.0,
+      "FTMUSDT/LDOUSDT": 0.33655569004691166,
+      "ATOMUSDT/LDOUSDT": 0.0006270832609596685,
+      "VETUSDT/LDOUSDT": 0.19257454727820997,
+      "DOGEUSDT/LDOUSDT": 0.5013381831486546,
+      "FILUSDT/LDOUSDT": 0.47703095707679244,
+      "SHIBUSDT/LDOUSDT": 0.429626243136163
+    },
+    "FTMUSDT/LDOUSDT": {
+      "OMUSDT/LDOUSDT": -0.0001756090811033757,
+      "NEARUSDT/LDOUSDT": 0.02616988835392806,
+      "DOTUSDT/LDOUSDT": 0.2597931789106658,
+      "UNIUSDT/LDOUSDT": 0.33655569004691166,
+      "FTMUSDT/LDOUSDT": 1.0,
+      "ATOMUSDT/LDOUSDT": 0.0006884035090494102,
+      "VETUSDT/LDOUSDT": 0.09952606391145638,
+      "DOGEUSDT/LDOUSDT": 0.2990053722203909,
+      "FILUSDT/LDOUSDT": 0.2824621864503476,
+      "SHIBUSDT/LDOUSDT": 0.44136537322795005
+    },
+    "ATOMUSDT/LDOUSDT": {
+      "OMUSDT/LDOUSDT": 5.515333313892259e-05,
+      "NEARUSDT/LDOUSDT": 0.0002922776702098172,
+      "DOTUSDT/LDOUSDT": -0.16973519915324947,
+      "UNIUSDT/LDOUSDT": 0.0006270832609596685,
+      "FTMUSDT/LDOUSDT": 0.0006884035090494102,
+      "ATOMUSDT/LDOUSDT": 1.0,
+      "VETUSDT/LDOUSDT": -0.01873670501920733,
+      "DOGEUSDT/LDOUSDT": 0.00034581458613390146,
+      "FILUSDT/LDOUSDT": 0.19445742500635294,
+      "SHIBUSDT/LDOUSDT": 0.0009319357968450066
+    },
+    "VETUSDT/LDOUSDT": {
+      "OMUSDT/LDOUSDT": -0.026022718592006215,
+      "NEARUSDT/LDOUSDT": 0.2750232722903961,
+      "DOTUSDT/LDOUSDT": 0.357460731394166,
+      "UNIUSDT/LDOUSDT": 0.19257454727820997,
+      "FTMUSDT/LDOUSDT": 0.09952606391145638,
+      "ATOMUSDT/LDOUSDT": -0.01873670501920733,
+      "VETUSDT/LDOUSDT": 1.0,
+      "DOGEUSDT/LDOUSDT": 0.15171687502302664,
+      "FILUSDT/LDOUSDT": 0.11866087875929003,
+      "SHIBUSDT/LDOUSDT": 0.19023975742595445
+    },
+    "DOGEUSDT/LDOUSDT": {
+      "OMUSDT/LDOUSDT": -0.06193534468285671,
+      "NEARUSDT/LDOUSDT": 0.10751058096228279,
+      "DOTUSDT/LDOUSDT": 0.29992407302304297,
+      "UNIUSDT/LDOUSDT": 0.5013381831486546,
+      "FTMUSDT/LDOUSDT": 0.2990053722203909,
+      "ATOMUSDT/LDOUSDT": 0.00034581458613390146,
+      "VETUSDT/LDOUSDT": 0.15171687502302664,
+      "DOGEUSDT/LDOUSDT": 1.0,
+      "FILUSDT/LDOUSDT": 0.3528472637583296,
+      "SHIBUSDT/LDOUSDT": 0.5675680230202081
+    },
+    "FILUSDT/LDOUSDT": {
+      "OMUSDT/LDOUSDT": -0.07091235292558545,
+      "NEARUSDT/LDOUSDT": 0.047045388579000896,
+      "DOTUSDT/LDOUSDT": 0.34882304900420824,
+      "UNIUSDT/LDOUSDT": 0.47703095707679244,
+      "FTMUSDT/LDOUSDT": 0.2824621864503476,
+      "ATOMUSDT/LDOUSDT": 0.19445742500635294,
+      "VETUSDT/LDOUSDT": 0.11866087875929003,
+      "DOGEUSDT/LDOUSDT": 0.3528472637583296,
+      "FILUSDT/LDOUSDT": 1.0,
+      "SHIBUSDT/LDOUSDT": 0.36763246760531254
+    },
+    "SHIBUSDT/LDOUSDT": {
+      "OMUSDT/LDOUSDT": -0.06975339920143417,
+      "NEARUSDT/LDOUSDT": 0.04809433436477957,
+      "DOTUSDT/LDOUSDT": 0.33389033778707583,
+      "UNIUSDT/LDOUSDT": 0.429626243136163,
+      "FTMUSDT/LDOUSDT": 0.44136537322795005,
+      "ATOMUSDT/LDOUSDT": 0.0009319357968450066,
+      "VETUSDT/LDOUSDT": 0.19023975742595445,
+      "DOGEUSDT/LDOUSDT": 0.5675680230202081,
+      "FILUSDT/LDOUSDT": 0.36763246760531254,
+      "SHIBUSDT/LDOUSDT": 1.0
+    }
+  },
+  "cluster_pnl_contribution": [
+    {
+      "pair_instance": "VETUSDT/LDOUSDT @ 2024-01-01",
+      "n_trades": 4,
+      "sum_trade_return": 0.2042751704981991,
+      "win_rate": 0.75,
+      "avg_holding_bars": 48.75,
+      "pct_of_abs_pnl": 0.10949078898153079
+    },
+    {
+      "pair_instance": "ATOMUSDT/LDOUSDT @ 2024-01-01",
+      "n_trades": 4,
+      "sum_trade_return": 0.0982646709180466,
+      "win_rate": 0.75,
+      "avg_holding_bars": 64.25,
+      "pct_of_abs_pnl": 0.052669525726437995
+    },
+    {
+      "pair_instance": "DOTUSDT/LDOUSDT @ 2024-01-01",
+      "n_trades": 5,
+      "sum_trade_return": 0.08241976996413482,
+      "win_rate": 0.6,
+      "avg_holding_bars": 57.0,
+      "pct_of_abs_pnl": 0.044176713298246656
+    },
+    {
+      "pair_instance": "OMUSDT/LDOUSDT @ 2024-01-01",
+      "n_trades": 2,
+      "sum_trade_return": -0.02578581179073902,
+      "win_rate": 0.5,
+      "avg_holding_bars": 41.0,
+      "pct_of_abs_pnl": 0.013821106454649443
+    },
+    {
+      "pair_instance": "NEARUSDT/LDOUSDT @ 2024-01-01",
+      "n_trades": 3,
+      "sum_trade_return": -0.08838068939515187,
+      "win_rate": 0.6666666666666666,
+      "avg_holding_bars": 37.666666666666664,
+      "pct_of_abs_pnl": 0.04737174561649479
+    },
+    {
+      "pair_instance": "DOGEUSDT/LDOUSDT @ 2024-01-01",
+      "n_trades": 2,
+      "sum_trade_return": -0.17301935835118498,
+      "win_rate": 0.0,
+      "avg_holding_bars": 68.0,
+      "pct_of_abs_pnl": 0.09273778114465685
+    },
+    {
+      "pair_instance": "FILUSDT/LDOUSDT @ 2024-01-01",
+      "n_trades": 5,
+      "sum_trade_return": -0.18159761908162894,
+      "win_rate": 0.2,
+      "avg_holding_bars": 39.8,
+      "pct_of_abs_pnl": 0.09733569939960146
+    },
+    {
+      "pair_instance": "UNIUSDT/LDOUSDT @ 2024-01-01",
+      "n_trades": 2,
+      "sum_trade_return": -0.23385976818846543,
+      "win_rate": 0.0,
+      "avg_holding_bars": 66.5,
+      "pct_of_abs_pnl": 0.12534803161610245
+    },
+    {
+      "pair_instance": "FTMUSDT/LDOUSDT @ 2024-01-01",
+      "n_trades": 2,
+      "sum_trade_return": -0.2670760951994362,
+      "win_rate": 0.0,
+      "avg_holding_bars": 22.5,
+      "pct_of_abs_pnl": 0.14315186867877563
+    },
+    {
+      "pair_instance": "SHIBUSDT/LDOUSDT @ 2024-01-01",
+      "n_trades": 2,
+      "sum_trade_return": -0.5110046570640876,
+      "win_rate": 0.0,
+      "avg_holding_bars": 28.0,
+      "pct_of_abs_pnl": 0.2738967390835039
+    }
+  ]
+}

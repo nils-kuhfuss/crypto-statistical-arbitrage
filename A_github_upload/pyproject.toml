@@ -1,0 +1,30 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "stat-arb-pair-trading"
+version = "0.1.0"
+description = "Crypto statistical arbitrage research project (research-learning, not production)"
+requires-python = ">=3.10"
+dependencies = [
+    "pandas",
+    "numpy",
+    "statsmodels",
+    "scipy",
+    "matplotlib",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest",
+    "nbformat",
+    "nbclient",
+    "ipykernel",
+]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

@@ -1,0 +1,15 @@
+﻿Walk-forward universe: 45 coins
+11 rebalance dates: [datetime.date(2021, 1, 1), datetime.date(2021, 7, 1), datetime.date(2022, 1, 1), datetime.date(2022, 7, 1), datetime.date(2023, 1, 1), datetime.date(2023, 7, 1), datetime.date(2024, 1, 1), datetime.date(2024, 7, 1), datetime.date(2025, 1, 1), datetime.date(2025, 7, 1), datetime.date(2026, 1, 1)]
+Target cache: pair_stability_523179f2a1.pkl
+2021-01-01: 0 qualifying pairs
+2021-07-01: 1 qualifying pairs
+2022-01-01: 3 qualifying pairs
+2022-07-01: 3 qualifying pairs
+2023-01-01: 0 qualifying pairs
+2023-07-01: 4 qualifying pairs
+2024-01-01: 15 qualifying pairs
+2024-07-01: 0 qualifying pairs
+2025-01-01: 0 qualifying pairs
+2025-07-01: 0 qualifying pairs
+2026-01-01: 0 qualifying pairs
+Wrote pair_stability_523179f2a1.pkl: 26 (pair, date) rows across 5 rebalance dates

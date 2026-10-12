@@ -1,0 +1,58 @@
+{
+  "2024-01-01": [
+    {
+      "x": "OMUSDT",
+      "y": "LDOUSDT",
+      "pvalue_adj": 0.0003584461752181333
+    },
+    {
+      "x": "NEARUSDT",
+      "y": "LDOUSDT",
+      "pvalue_adj": 0.0008851170134969214
+    },
+    {
+      "x": "DOTUSDT",
+      "y": "LDOUSDT",
+      "pvalue_adj": 0.0008851170134969214
+    },
+    {
+      "x": "UNIUSDT",
+      "y": "LDOUSDT",
+      "pvalue_adj": 0.0008851170134969214
+    },
+    {
+      "x": "FTMUSDT",
+      "y": "LDOUSDT",
+      "pvalue_adj": 0.0008851170134969214
+    },
+    {
+      "x": "ATOMUSDT",
+      "y": "LDOUSDT",
+      "pvalue_adj": 0.0008851170134969214
+    },
+    {
+      "x": "VETUSDT",
+      "y": "LDOUSDT",
+      "pvalue_adj": 0.0026476662908063347
+    },
+    {
+      "x": "DOGEUSDT",
+      "y": "LDOUSDT",
+      "pvalue_adj": 0.0026476662908063347
+    },
+    {
+      "x": "FILUSDT",
+      "y": "LDOUSDT",
+      "pvalue_adj": 0.00461011668945093
+    },
+    {
+      "x": "SHIBUSDT",
+      "y": "LDOUSDT",
+      "pvalue_adj": 0.006082977852131707
+    }
+  ],
+  "2024-07-01": [],
+  "2025-01-01": [],
+  "2025-07-01": [],
+  "2026-01-01": []
+}

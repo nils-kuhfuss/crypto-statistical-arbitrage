@@ -1,0 +1,249 @@
+{
+  "S0_STATIC_BASELINE": {
+    "summary_row": {
+      "model": "S0_STATIC_BASELINE",
+      "daily_sharpe_252": -0.11552399405027858,
+      "bar_sharpe_secondary": -0.1527703614904144,
+      "ann_volatility": 0.03867335605919975,
+      "cum_net_return": -0.016481545766348416,
+      "cum_gross_return": -0.007200594371657765,
+      "max_drawdown": -0.11170705079310297,
+      "n_trades": 29,
+      "n_pairs_traded": 11,
+      "win_rate": 0.4827586206896552,
+      "avg_trade_return": -0.00238627025237234,
+      "median_trade_return": -0.0023448925548451042,
+      "avg_holding_bars": 125.86206896551724,
+      "median_holding_bars": 156.0,
+      "time_in_market_pct": 0.42271812694347904,
+      "turnover": 4.728719102360063,
+      "pct_exit_mean_reversion": 0.2413793103448276,
+      "pct_exit_time_stop": 0.6551724137931034,
+      "pct_exit_hard_stop": 0.06896551724137931,
+      "total_costs_pct": 0.009280951394691758,
+      "btc_correlation": 0.023451506417415814,
+      "btc_beta": 0.0020322095682402414,
+      "ann_alpha": -0.004346603580166078,
+      "alpha_tstat_ols": -0.2390962690681327,
+      "alpha_tstat_hac": -0.21065497453766757,
+      "r_squared": 0.0005499731532460084
+    },
+    "selected_pairs": [
+      [
+        "AAVEUSDT",
+        "ICPUSDT"
+      ],
+      [
+        "FILUSDT",
+        "ICPUSDT"
+      ],
+      [
+        "GRTUSDT",
+        "XLMUSDT"
+      ],
+      [
+        "ADAUSDT",
+        "ICPUSDT"
+      ],
+      [
+        "LINKUSDT",
+        "ICPUSDT"
+      ],
+      [
+        "INJUSDT",
+        "XLMUSDT"
+      ],
+      [
+        "XLMUSDT",
+        "AAVEUSDT"
+      ],
+      [
+        "FTMUSDT",
+        "AVAXUSDT"
+      ],
+      [
+        "DOTUSDT",
+        "GRTUSDT"
+      ],
+      [
+        "FILUSDT",
+        "BTCUSDT"
+      ],
+      [
+        "SOLUSDT",
+        "ICPUSDT"
+      ],
+      [
+        "GRTUSDT",
+        "UNIUSDT"
+      ]
+    ],
+    "final_equity": 0.9835184542336516
+  },
+  "S1_STATIC_PAIR_HALFLIFE_STOP": {
+    "summary_row": {
+      "model": "S1_STATIC_PAIR_HALFLIFE_STOP",
+      "daily_sharpe_252": -0.12486232017778724,
+      "bar_sharpe_secondary": -0.16130138387306328,
+      "ann_volatility": 0.041645922851382265,
+      "cum_net_return": -0.018760253620404566,
+      "cum_gross_return": -0.009221386792081399,
+      "max_drawdown": -0.10531954451202752,
+      "n_trades": 29,
+      "n_pairs_traded": 11,
+      "win_rate": 0.5517241379310345,
+      "avg_trade_return": 0.0012964735854396154,
+      "median_trade_return": 0.022386967905439592,
+      "avg_holding_bars": 190.75862068965517,
+      "median_holding_bars": 156.0,
+      "time_in_market_pct": 0.6638009877446497,
+      "turnover": 4.833555974961887,
+      "pct_exit_mean_reversion": 0.3448275862068966,
+      "pct_exit_time_stop": 0.5172413793103449,
+      "pct_exit_hard_stop": 0.10344827586206896,
+      "total_costs_pct": 0.009538866828321632,
+      "btc_correlation": -0.02228398230237565,
+      "btc_beta": -0.0020417736411764906,
+      "ann_alpha": -0.004207281128087019,
+      "alpha_tstat_ols": -0.21887474637970175,
+      "alpha_tstat_hac": -0.19374160894643547,
+      "r_squared": 0.0004965758672523801
+    },
+    "selected_pairs": [
+      [
+        "AAVEUSDT",
+        "ICPUSDT"
+      ],
+      [
+        "FILUSDT",
+        "ICPUSDT"
+      ],
+      [
+        "GRTUSDT",
+        "XLMUSDT"
+      ],
+      [
+        "ADAUSDT",
+        "ICPUSDT"
+      ],
+      [
+        "LINKUSDT",
+        "ICPUSDT"
+      ],
+      [
+        "INJUSDT",
+        "XLMUSDT"
+      ],
+      [
+        "XLMUSDT",
+        "AAVEUSDT"
+      ],
+      [
+        "FTMUSDT",
+        "AVAXUSDT"
+      ],
+      [
+        "DOTUSDT",
+        "GRTUSDT"
+      ],
+      [
+        "FILUSDT",
+        "BTCUSDT"
+      ],
+      [
+        "SOLUSDT",
+        "ICPUSDT"
+      ],
+      [
+        "GRTUSDT",
+        "UNIUSDT"
+      ]
+    ],
+    "final_equity": 0.9812397463795954
+  },
+  "WF1_SEMIANNUAL_REESTIMATION": {
+    "summary_row": {
+      "model": "WF1_SEMIANNUAL_REESTIMATION",
+      "daily_sharpe_252": -0.067867077344586,
+      "ann_volatility": 0.09305305265987839,
+      "cum_net_return": -0.03795404970326932,
+      "cum_gross_return": -0.029919166487326176,
+      "max_drawdown": -0.18584404887975,
+      "n_trades": 2,
+      "n_pairs_traded": 1,
+      "win_rate": 0.5,
+      "avg_trade_return": -0.01289290589536951,
+      "median_trade_return": -0.01289290589536951,
+      "avg_holding_bars": 41.0,
+      "median_holding_bars": 41.0,
+      "time_in_market_pct": 0.014999085421620633,
+      "turnover": 4.152872737706607,
+      "pct_exit_mean_reversion": 0.5,
+      "pct_exit_time_stop": 0.0,
+      "pct_exit_hard_stop": 0.5,
+      "total_costs_pct": 0.008305745475413216,
+      "btc_correlation": 0.060342468624980786,
+      "btc_beta": 0.014078634396653843,
+      "ann_alpha": -0.008767220692363591,
+      "alpha_tstat_ols": -0.1793980253424079,
+      "alpha_tstat_hac": -0.17668591449094537,
+      "r_squared": 0.003641213519757547
+    },
+    "selected_pairs": {
+      "2024-01-01 00:00:00": [
+        {
+          "rebalance_date": "2024-01-01T00:00:00",
+          "x": "OMUSDT",
+          "y": "LDOUSDT",
+          "pair": [
+            "OMUSDT",
+            "LDOUSDT"
+          ],
+          "alpha": 2.6577823799758695,
+          "beta": 0.5384373056616604,
+          "spread_mean": 4.636372463019101e-15,
+          "spread_std": 0.1260180457648195,
+          "half_life_bars": 30.32022074737955,
+          "time_stop_bars": 76,
+          "pvalue_adj": 0.0003584461752181333,
+          "eg_pvalue": 3.394376659262626e-07
+        }
+      ],
+      "2024-07-01 00:00:00": [],
+      "2025-01-01 00:00:00": [],
+      "2025-07-01 00:00:00": [],
+      "2026-01-01 00:00:00": []
+    },
+    "final_equity": 0.9620459502967307
+  },
+  "WF2_ROLLING_ENTRY_HEDGE_RATIO": {
+    "summary_row": {
+      "model": "WF2_ROLLING_ENTRY_HEDGE_RATIO",
+      "daily_sharpe_252": -0.01850725007094916,
+      "ann_volatility": 0.08542007906029224,
+      "cum_net_return": -0.01878895062210517,
+      "cum_gross_return": -0.010678810703366182,
+      "max_drawdown": -0.1562588656138399,
+      "n_trades": 2,
+      "n_pairs_traded": 1,
+      "win_rate": 0.5,
+      "avg_trade_return": -0.0040155102211182625,
+      "median_trade_return": -0.0040155102211182625,
+      "avg_holding_bars": 41.0,
+      "median_holding_bars": 41.0,
+      "time_in_market_pct": 0.014999085421620633,
+      "turnover": 4.110210928105755,
+      "pct_exit_mean_reversion": 0.5,
+      "pct_exit_time_stop": 0.0,
+      "pct_exit_hard_stop": 0.5,
+      "total_costs_pct": 0.008220421856211512,
+      "btc_correlation": 0.06831491661191334,
+      "btc_beta": 0.01463128076930325,
+      "ann_alpha": -0.004129123471955844,
+      "alpha_tstat_ols": -0.09208903142953268,
+      "alpha_tstat_hac": -0.0854612472624439,
+      "r_squared": 0.004666927831692869
+    },
+    "final_equity": 0.9812110493778948
+  }
+}
